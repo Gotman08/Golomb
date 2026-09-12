@@ -93,8 +93,10 @@ The reported ratio compares two optimized implementations, both built with the s
 
 From a checkout containing this report, the following commands compile the solvers, measure fresh data and regenerate the figures. Linux or WSL with GCC, Make, OpenMPI and Python is required; Ubuntu's packages are `build-essential libopenmpi-dev openmpi-bin python3-venv`.
 
+Before the pull request is merged, use the `chore/repo-overhaul` branch shown below.
+
 ```bash
-git clone https://github.com/Gotman08/Golomb.git
+git clone --branch chore/repo-overhaul https://github.com/Gotman08/Golomb.git
 cd Golomb
 make -j2 v1 v2 v3 v4 v1_noavx v2_noavx
 make test_unit test_openmp_unit test_mpi_unit
