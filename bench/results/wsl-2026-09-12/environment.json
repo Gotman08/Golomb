@@ -1,0 +1,243 @@
+{
+  "started_utc": "2026-09-12T05:07:06.666726+00:00",
+  "system": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "os_release": {
+    "NAME": "Ubuntu",
+    "ID": "ubuntu",
+    "PRETTY_NAME": "Ubuntu 24.04.4 LTS",
+    "VERSION_ID": "24.04",
+    "VERSION": "24.04.4 LTS (Noble Numbat)",
+    "VERSION_CODENAME": "noble",
+    "ID_LIKE": "debian",
+    "HOME_URL": "https://www.ubuntu.com/",
+    "SUPPORT_URL": "https://help.ubuntu.com/",
+    "BUG_REPORT_URL": "https://bugs.launchpad.net/ubuntu/",
+    "PRIVACY_POLICY_URL": "https://www.ubuntu.com/legal/terms-and-policies/privacy-policy",
+    "UBUNTU_CODENAME": "noble",
+    "LOGO": "ubuntu-logo"
+  },
+  "cpu": {
+    "lscpu": [
+      {
+        "field": "Architecture:",
+        "data": "x86_64"
+      },
+      {
+        "field": "CPU op-mode(s):",
+        "data": "32-bit, 64-bit"
+      },
+      {
+        "field": "Address sizes:",
+        "data": "46 bits physical, 48 bits virtual"
+      },
+      {
+        "field": "Byte Order:",
+        "data": "Little Endian"
+      },
+      {
+        "field": "CPU(s):",
+        "data": "20"
+      },
+      {
+        "field": "On-line CPU(s) list:",
+        "data": "0-19"
+      },
+      {
+        "field": "Vendor ID:",
+        "data": "GenuineIntel"
+      },
+      {
+        "field": "Model name:",
+        "data": "13th Gen Intel(R) Core(TM) i9-13900H"
+      },
+      {
+        "field": "CPU family:",
+        "data": "6"
+      },
+      {
+        "field": "Model:",
+        "data": "186"
+      },
+      {
+        "field": "Thread(s) per core:",
+        "data": "2"
+      },
+      {
+        "field": "Core(s) per socket:",
+        "data": "10"
+      },
+      {
+        "field": "Socket(s):",
+        "data": "1"
+      },
+      {
+        "field": "Stepping:",
+        "data": "2"
+      },
+      {
+        "field": "BogoMIPS:",
+        "data": "5990.42"
+      },
+      {
+        "field": "Flags:",
+        "data": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni vnmi umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize flush_l1d arch_capabilities"
+      },
+      {
+        "field": "Virtualization:",
+        "data": "VT-x"
+      },
+      {
+        "field": "Hypervisor vendor:",
+        "data": "Microsoft"
+      },
+      {
+        "field": "Virtualization type:",
+        "data": "full"
+      },
+      {
+        "field": "L1d cache:",
+        "data": "480 KiB (10 instances)"
+      },
+      {
+        "field": "L1i cache:",
+        "data": "320 KiB (10 instances)"
+      },
+      {
+        "field": "L2 cache:",
+        "data": "12.5 MiB (10 instances)"
+      },
+      {
+        "field": "L3 cache:",
+        "data": "24 MiB (1 instance)"
+      },
+      {
+        "field": "NUMA node(s):",
+        "data": "1"
+      },
+      {
+        "field": "NUMA node0 CPU(s):",
+        "data": "0-19"
+      },
+      {
+        "field": "Vulnerability Gather data sampling:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Itlb multihit:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability L1tf:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Mds:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Meltdown:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Mmio stale data:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Reg file data sampling:",
+        "data": "Vulnerable: No microcode"
+      },
+      {
+        "field": "Vulnerability Retbleed:",
+        "data": "Mitigation; Enhanced IBRS"
+      },
+      {
+        "field": "Vulnerability Spec rstack overflow:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Spec store bypass:",
+        "data": "Mitigation; Speculative Store Bypass disabled via prctl"
+      },
+      {
+        "field": "Vulnerability Spectre v1:",
+        "data": "Mitigation; usercopy/swapgs barriers and __user pointer sanitization"
+      },
+      {
+        "field": "Vulnerability Spectre v2:",
+        "data": "Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S"
+      },
+      {
+        "field": "Vulnerability Srbds:",
+        "data": "Not affected"
+      },
+      {
+        "field": "Vulnerability Tsx async abort:",
+        "data": "Not affected"
+      }
+    ]
+  },
+  "logical_cpus": 20,
+  "memory_total_bytes": 16537264128,
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "make": "GNU Make 4.3\nBuilt for x86_64-pc-linux-gnu\nCopyright (C) 1988-2020 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.",
+  "mpi_runtime": "mpirun (Open MPI) 4.1.6\n\nReport bugs to http://www.open-mpi.org/community/help/",
+  "libgomp_package": "libgomp1:amd64\t14.2.0-4ubuntu2~24.04.1",
+  "python": "3.12.3",
+  "git_commit": "d533cab1c2fb2c203a36509546280a6730b889de",
+  "source_sha256": {
+    "Makefile": "76d352c6c7521cf76e205ced18229ab81a95b7d79ebafeda92a12f15df8fb8a3",
+    "src/common/timing.cpp": "59af1d72bd7695ccaf8c51c0ce519a1997d5ce44bd5e037e6d6162ad8c868b43",
+    "src/common/validation.cpp": "c3ef291107d4c6e913a9409e80fb90b5fefd6531689793596769c4f798cd7005",
+    "src/v1_sequential.cpp": "c2080ff1d58eceef7152c40128f98d6f05a8583fda99fe180f7b8540e226d3ad",
+    "src/v2_openmp.cpp": "555df188fcb8f70781c58cf43befc25b92850affb272f4f3f7c0f3917dbcd0c8",
+    "src/v3_hybrid.cpp": "b731f3f4bd6ec9bc9e1043163378e74fee395149e8d033b7d5b066cdf80bd778",
+    "src/v4_hypercube.cpp": "86d16e9677ae6befd9025e5f771776015a4c3e43a1ee46a58594d6191e4b4df3",
+    "include/golomb/bitset256.hpp": "af3226fde49e199f1b83c0bbe361c9a41c58210f3810f8e674837f2642ce00bc",
+    "include/golomb/config.hpp": "b16deeecf85d3c976a7ec31697df17c9b04780c903b21df71bb111201ff4e896",
+    "include/golomb/csv_output.hpp": "36f10b901aa351dbe984d7b775be28693dadc94daa8cdbb5cbb25af8cc228e28",
+    "include/golomb/difference.hpp": "e51aab027766e1a118b6e52bb100a32a1f79087a89125483fd3e185b55148d4a",
+    "include/golomb/golomb.hpp": "2ab397b87552205ca33ec7325611493467a7409c899facc87a8d658b5cbb3e10",
+    "include/golomb/greedy.hpp": "5ebea046a4414787f91fe811f71bd4adc2637ccab5170911ae292db6e2042e48"
+  },
+  "build_command": [
+    "make",
+    "-j2",
+    "v1",
+    "v2"
+  ],
+  "build_flags": "-std=c++17 -Wall -Wextra -O3 -flto=auto -march=native -funroll-loops -falign-functions=32 -falign-loops=32 -fno-rtti -mavx2 -mfma -DUSE_AVX2; v2 additionally -fopenmp",
+  "protocol": {
+    "orders": [
+      8,
+      9,
+      10
+    ],
+    "configurations": [
+      "v1",
+      "v2_t1",
+      "v2_t2",
+      "v2_t4"
+    ],
+    "warmups_per_configuration_and_order": 1,
+    "measured_repetitions": 5,
+    "schedule_seed": 0,
+    "schedule": "one shuffled warmup round, then five shuffled measurement rounds",
+    "solver_random_seed": null,
+    "solver_randomness": "no stochastic input; parallel scheduling can change traversal order",
+    "sample": "one fresh process",
+    "primary_metric": "solver-reported time_ms",
+    "timer_scope": "solver construction, solve and statistics retrieval; excludes process startup and printing",
+    "reported_resolution_ms": 0.01,
+    "quartiles": "inclusive linear interpolation (statistics.quantiles method=inclusive)",
+    "warmups_retained": true,
+    "affinity": "OpenMP OMP_PLACES=cores, OMP_PROC_BIND=close; sequential OS scheduling",
+    "virtualization": "host scheduling, CPU frequency and thermal state are not controlled"
+  },
+  "omp_environment": {
+    "OMP_DYNAMIC": "FALSE",
+    "OMP_PROC_BIND": "close",
+    "OMP_PLACES": "cores"
+  },
+  "finished_utc": "2026-09-12T05:07:16.408056+00:00",
+  "completed_samples": 72
+}

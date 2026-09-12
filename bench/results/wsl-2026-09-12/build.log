@@ -1,0 +1,2 @@
+g++ -std=c++17 -Wall -Wextra -O3 -flto=auto -march=native -funroll-loops -falign-functions=32 -falign-loops=32 -fno-rtti -mavx2 -mfma -DUSE_AVX2 -Iinclude -Isrc -o build/golomb_v1 src/v1_sequential.cpp src/common/validation.cpp src/common/timing.cpp
+g++ -std=c++17 -Wall -Wextra -O3 -flto=auto -march=native -funroll-loops -falign-functions=32 -falign-loops=32 -fno-rtti -fopenmp -mavx2 -mfma -DUSE_AVX2 -Iinclude -Isrc -o build/golomb_v2 src/v2_openmp.cpp src/common/validation.cpp src/common/timing.cpp
