@@ -527,4 +527,3 @@ Best found by rank: 0
 *** OPTIMAL SOLUTION FOUND ***
 
 CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v4", "8", "--threads", "2"], "exit_code": 0, "order": 8, "expected_length": 34, "length": 34, "marks": [0, 1, 4, 9, 15, 22, 32, 34], "valid": true, "passed": true}
-

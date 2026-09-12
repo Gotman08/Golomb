@@ -126,6 +126,8 @@ def main():
                 print(f'{phase} {repetition}: G{order} v{version} threads={threads}: {row["time_ms"]} ms', flush=True)
     if fingerprint() != source_hashes:
         raise RuntimeError('Source files changed during measurement')
+    log_path = output / 'runs.log'
+    log_path.write_text(log_path.read_text().rstrip() + '\n')
     environment['finished_utc'] = datetime.now(timezone.utc).isoformat()
     environment['completed_samples'] = sequence
     metadata_path.write_text(json.dumps(environment, indent=2) + '\n')

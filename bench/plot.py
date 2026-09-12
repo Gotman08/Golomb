@@ -80,7 +80,9 @@ def main():
             legend = ax.legend(frameon=False, fontsize=8, loc='best')
             for item in legend.get_texts():
                 item.set_color(foreground)
-        fig.savefig(args.output / f'local-benchmark-{theme}.svg', metadata={'Date': None})
+        svg_path = args.output / f'local-benchmark-{theme}.svg'
+        fig.savefig(svg_path, metadata={'Date': None})
+        svg_path.write_text('\n'.join(line.rstrip() for line in svg_path.read_text().splitlines()) + '\n')
         if args.preview_dir:
             args.preview_dir.mkdir(parents=True, exist_ok=True)
             fig.savefig(args.preview_dir / f'local-benchmark-{theme}.png', dpi=150)

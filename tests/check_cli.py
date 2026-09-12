@@ -49,6 +49,8 @@ def main():
             log.write('CHECK ' + json.dumps(row) + '\n\n')
             log.flush()
             print(('PASS' if passed else 'FAIL') + ' ' + shlex.join(command), flush=True)
+    log_path = args.output / 'integration.log'
+    log_path.write_text(log_path.read_text().rstrip() + '\n')
     (args.output / 'integration.json').write_text(json.dumps(results, indent=2) + '\n')
     raise SystemExit(0 if all(row['passed'] for row in results) else 1)
 
