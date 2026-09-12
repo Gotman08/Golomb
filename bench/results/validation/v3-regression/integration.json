@@ -1,0 +1,542 @@
+[
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      7,
+      11,
+      20,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      7,
+      11,
+      20,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      7,
+      11,
+      20,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      7,
+      11,
+      20,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  },
+  {
+    "command": [
+      "mpirun",
+      "--oversubscribe",
+      "-np",
+      "4",
+      "./build/golomb_v3",
+      "7",
+      "--threads",
+      "2"
+    ],
+    "exit_code": 0,
+    "order": 7,
+    "expected_length": 25,
+    "length": 25,
+    "marks": [
+      0,
+      1,
+      4,
+      10,
+      18,
+      23,
+      25
+    ],
+    "valid": true,
+    "passed": true
+  }
+]
