@@ -1,0 +1,176 @@
+g++ -std=c++17 -Wall -Wextra -O2 -Iinclude -o build/test_correctness tests/test_correctness.cpp src/common/validation.cpp src/common/timing.cpp
+./build/test_correctness
+========================================
+  Golomb Ruler Solver - Test Suite
+========================================
+
+=== Testing Valid Golomb Rulers ===
+[PASS] G4 is valid
+[PASS] G5 is valid
+[PASS] G6 is valid
+[PASS] G7 is valid
+[PASS] G8 is valid
+[PASS] G9 is valid
+[PASS] G10 is valid
+[PASS] G11 is valid
+
+=== Testing Invalid Golomb Rulers ===
+[PASS] Duplicate difference detected
+[PASS] Shifted ruler validation returns consistent result
+[PASS] Empty ruler validation returns consistent result
+[PASS] Single mark is valid
+[PASS] Two marks is valid
+
+=== Testing Fast Validation ===
+[PASS] G4 fast validation
+[PASS] G5 fast validation
+[PASS] G6 fast validation
+[PASS] G7 fast validation
+[PASS] G8 fast validation
+[PASS] G9 fast validation
+[PASS] G10 fast validation
+[PASS] G11 fast validation
+
+=== Testing Optimal Lengths ===
+[PASS] G4 length = 6
+[PASS] G5 length = 11
+[PASS] G6 length = 17
+[PASS] G7 length = 25
+[PASS] G8 length = 34
+[PASS] G9 length = 44
+[PASS] G10 length = 55
+[PASS] G11 length = 72
+
+=== Testing Optimal Length Bounds ===
+[PASS] G4 is optimal
+[PASS] G5 is optimal
+[PASS] G6 is optimal
+[PASS] G7 is optimal
+[PASS] G8 is optimal
+[PASS] G9 is optimal
+[PASS] G10 is optimal
+[PASS] G11 is optimal
+[PASS] G4 with length 7 is not optimal
+[PASS] G5 with length 12 is not optimal
+
+=== Testing GolombRuler Structure ===
+[PASS] Default ruler has INT_MAX length
+[PASS] Default ruler has order 0
+[PASS] G4 has order 4
+[PASS] G4 has length 6
+[PASS] G4 marks size is 4
+[PASS] G4 toString contains '0'
+[PASS] G4 toString contains '6'
+[PASS] G4 isValid returns true
+
+=== Testing Edge Cases ===
+[PASS] G2 [0,1] is valid
+[PASS] G2 has optimal length 1
+[PASS] G3 [0,1,3] is valid
+[PASS] G3 has optimal length 3
+[PASS] Large marks [0,50,100,150] is invalid (duplicate diff)
+[PASS] Large valid ruler [0,1,5,11,19]
+[PASS] Upper bound for G4 >= 6
+[PASS] Lower bound for G4 <= 6
+
+=== Testing Timer ===
+[PASS] Timer before start returns 0
+[PASS] Timer after work returns > 0
+[PASS] Timer after reset returns 0
+
+========================================
+  Test Results
+========================================
+Passed: 58
+Failed: 0
+Total:  58
+
+*** ALL TESTS PASSED ***
+g++ -std=c++17 -Wall -Wextra -O2 -fopenmp -Iinclude -o build/test_openmp tests/test_openmp.cpp src/common/validation.cpp src/common/timing.cpp
+OMP_NUM_THREADS=4 ./build/test_openmp
+============================================
+Golomb Ruler Solver - OpenMP Tests
+============================================
+OpenMP threads: 4
+
+=== Testing BitSet256 Thread Safety ===
+[PASS] Parallel BitSet256 operations
+[PASS] Concurrent BitSet256 reads
+
+=== Testing Atomic Bound Updates ===
+[PASS] Atomic bound converges to minimum
+[PASS] At least one update occurred
+
+=== Testing Thread-Local State Independence ===
+[PASS] Thread-local arrays remain independent
+
+=== Testing Parallel Difference Checking ===
+[PASS] Some positions are valid
+[PASS] Some positions are invalid
+[PASS] Total checks correct
+
+=== Testing Consistency Across Thread Counts ===
+[PASS] Validation consistent across threads
+
+=== Testing OpenMP Task Parallelism ===
+[PASS] All tasks completed
+[PASS] Tasks distributed across threads
+
+=== Testing Cache Line Alignment ===
+[PASS] States are cache-line aligned
+[PASS] No false sharing deadlock
+
+============================================
+Results: 13 passed, 0 failed
+============================================
+mpicxx -std=c++17 -Wall -Wextra -O2 -Iinclude -o build/test_mpi_unit tests/test_mpi.cpp src/common/validation.cpp src/common/timing.cpp
+In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:277,
+                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2911,
+                 from tests/test_mpi.cpp:19:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In member function ‘virtual void MPI::Op::Init(void (*)(const void*, void*, int, const MPI::Datatype&), bool)’:
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:121:25: warning: cast between incompatible function types from ‘void (*)(void*, void*, int*, ompi_datatype_t**, void (*)(void*, void*, int*, ompi_datatype_t**))’ to ‘void (*)(void*, void*, int*, ompi_datatype_t**)’ [-Wcast-function-type]
+  121 |     (void)MPI_Op_create((MPI_User_function*) ompi_mpi_cxx_op_intercept,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:123:38: warning: cast between incompatible function types from ‘void (*)(const void*, void*, int, const MPI::Datatype&)’ to ‘void (*)(void*, void*, int*, ompi_datatype_t**)’ [-Wcast-function-type]
+  123 |     ompi_op_set_cxx_callback(mpi_op, (MPI_User_function*) func);
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+mpirun --oversubscribe -np 4 ./build/test_mpi_unit
+============================================
+Golomb Ruler Solver - MPI Tests
+============================================
+MPI ranks: 4
+
+=== Testing MPI Thread Support ===
+MPI thread level: MPI_THREAD_MULTIPLE
+[PASS] MPI supports at least THREAD_FUNNELED
+
+=== Testing Point-to-Point Communication ===
+[PASS] Send/Recv roundtrip
+
+=== Testing Collective Operations ===
+[PASS] Allreduce finds minimum
+[PASS] Reduce sums correctly
+[PASS] Broadcast distributes data correctly
+
+=== Testing Non-blocking Communication ===
+[PASS] Non-blocking ring communication
+
+=== Testing Message Probing ===
+[PASS] Probe-based receive
+
+=== Testing Hypercube Topology ===
+Hypercube dimension: 2
+Is power of 2: yes
+[PASS] Correct neighbor count
+[PASS] Hypercube neighbor communication
+
+=== Testing Work Distribution ===
+[PASS] Work distribution is balanced
+[PASS] All work is distributed
+
+=== Testing Custom MPI Datatype ===
+[PASS] Custom datatype transmission
+
+============================================
+Results: 30 passed, 0 failed
+============================================

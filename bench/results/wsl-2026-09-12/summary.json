@@ -1,0 +1,134 @@
+[
+  {
+    "order": 8,
+    "version": 1,
+    "threads": 1,
+    "repetitions": 5,
+    "median_ms": 3.65,
+    "q1_ms": 3.62,
+    "q3_ms": 3.66,
+    "iqr_ms": 0.040000000000000036,
+    "speedup_vs_v1": 1.0
+  },
+  {
+    "order": 8,
+    "version": 2,
+    "threads": 1,
+    "repetitions": 5,
+    "median_ms": 2.69,
+    "q1_ms": 2.67,
+    "q3_ms": 2.77,
+    "iqr_ms": 0.10000000000000009,
+    "speedup_vs_v1": 1.3568773234200744
+  },
+  {
+    "order": 8,
+    "version": 2,
+    "threads": 2,
+    "repetitions": 5,
+    "median_ms": 1.73,
+    "q1_ms": 1.7,
+    "q3_ms": 1.82,
+    "iqr_ms": 0.1200000000000001,
+    "speedup_vs_v1": 2.1098265895953756
+  },
+  {
+    "order": 8,
+    "version": 2,
+    "threads": 4,
+    "repetitions": 5,
+    "median_ms": 1.36,
+    "q1_ms": 1.28,
+    "q3_ms": 5.95,
+    "iqr_ms": 4.67,
+    "speedup_vs_v1": 2.6838235294117645
+  },
+  {
+    "order": 9,
+    "version": 1,
+    "threads": 1,
+    "repetitions": 5,
+    "median_ms": 34.91,
+    "q1_ms": 34.9,
+    "q3_ms": 35.15,
+    "iqr_ms": 0.25,
+    "speedup_vs_v1": 1.0
+  },
+  {
+    "order": 9,
+    "version": 2,
+    "threads": 1,
+    "repetitions": 5,
+    "median_ms": 22.38,
+    "q1_ms": 22.37,
+    "q3_ms": 22.81,
+    "iqr_ms": 0.4399999999999977,
+    "speedup_vs_v1": 1.5598748882931188
+  },
+  {
+    "order": 9,
+    "version": 2,
+    "threads": 2,
+    "repetitions": 5,
+    "median_ms": 12.2,
+    "q1_ms": 12.0,
+    "q3_ms": 12.24,
+    "iqr_ms": 0.2400000000000002,
+    "speedup_vs_v1": 2.8614754098360655
+  },
+  {
+    "order": 9,
+    "version": 2,
+    "threads": 4,
+    "repetitions": 5,
+    "median_ms": 6.57,
+    "q1_ms": 6.57,
+    "q3_ms": 6.75,
+    "iqr_ms": 0.17999999999999972,
+    "speedup_vs_v1": 5.313546423135463
+  },
+  {
+    "order": 10,
+    "version": 1,
+    "threads": 1,
+    "repetitions": 5,
+    "median_ms": 329.23,
+    "q1_ms": 325.33,
+    "q3_ms": 332.93,
+    "iqr_ms": 7.600000000000023,
+    "speedup_vs_v1": 1.0
+  },
+  {
+    "order": 10,
+    "version": 2,
+    "threads": 1,
+    "repetitions": 5,
+    "median_ms": 205.15,
+    "q1_ms": 204.66,
+    "q3_ms": 207.37,
+    "iqr_ms": 2.710000000000008,
+    "speedup_vs_v1": 1.6048257372654156
+  },
+  {
+    "order": 10,
+    "version": 2,
+    "threads": 2,
+    "repetitions": 5,
+    "median_ms": 178.25,
+    "q1_ms": 175.82,
+    "q3_ms": 183.01,
+    "iqr_ms": 7.189999999999998,
+    "speedup_vs_v1": 1.8470126227208976
+  },
+  {
+    "order": 10,
+    "version": 2,
+    "threads": 4,
+    "repetitions": 5,
+    "median_ms": 50.17,
+    "q1_ms": 47.28,
+    "q3_ms": 70.85,
+    "iqr_ms": 23.569999999999993,
+    "speedup_vs_v1": 6.5622882200518236
+  }
+]

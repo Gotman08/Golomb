@@ -1,0 +1,419 @@
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 19.60 ms
+Nodes explored: 4245
+Nodes pruned: 4146
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 34.89 ms
+Nodes explored: 4272
+Nodes pruned: 4161
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 17.13 ms
+Nodes explored: 4228
+Nodes pruned: 4143
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 82.33 ms
+Nodes explored: 4258
+Nodes pruned: 4156
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 7, 11, 20, 23, 25]
+Length: 25
+Time: 12.11 ms
+Nodes explored: 4271
+Nodes pruned: 4161
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 7, 11, 20, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 7, 11, 20, 23, 25]
+Length: 25
+Time: 26.16 ms
+Nodes explored: 4319
+Nodes pruned: 4181
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 7, 11, 20, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 32.33 ms
+Nodes explored: 4269
+Nodes pruned: 4160
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 40.45 ms
+Nodes explored: 4230
+Nodes pruned: 4141
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 61.72 ms
+Nodes explored: 4224
+Nodes pruned: 4141
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 17.41 ms
+Nodes explored: 4252
+Nodes pruned: 4154
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 46.15 ms
+Nodes explored: 4220
+Nodes pruned: 4140
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 7, 11, 20, 23, 25]
+Length: 25
+Time: 19.26 ms
+Nodes explored: 4292
+Nodes pruned: 4166
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 7, 11, 20, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 25.50 ms
+Nodes explored: 4214
+Nodes pruned: 4137
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 7, 11, 20, 23, 25]
+Length: 25
+Time: 22.92 ms
+Nodes explored: 4275
+Nodes pruned: 4163
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 7, 11, 20, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 46.10 ms
+Nodes explored: 4224
+Nodes pruned: 4141
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 107.32 ms
+Nodes explored: 4232
+Nodes pruned: 4144
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 30.00 ms
+Nodes explored: 4224
+Nodes pruned: 4141
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 46.56 ms
+Nodes explored: 4237
+Nodes pruned: 4143
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 56.71 ms
+Nodes explored: 4227
+Nodes pruned: 4143
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 9.71 ms
+Nodes explored: 4222
+Nodes pruned: 4141
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}

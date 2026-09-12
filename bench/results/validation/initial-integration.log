@@ -1,0 +1,529 @@
+$ ./build/golomb_v1 4
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 4
+
+=== Golomb G4 ===
+Solution: [0, 1, 4, 6]
+Length: 6
+Time: 0.00 ms
+Nodes explored: 8
+Nodes pruned: 3
+Pruning ratio: 27.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v1", "4"], "exit_code": 0, "order": 4, "expected_length": 6, "length": 6, "marks": [0, 1, 4, 6], "valid": true, "passed": true}
+
+$ ./build/golomb_v1 5
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 5
+
+=== Golomb G5 ===
+Solution: [0, 1, 4, 9, 11]
+Length: 11
+Time: 0.01 ms
+Nodes explored: 65
+Nodes pruned: 35
+Pruning ratio: 35.0%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v1", "5"], "exit_code": 0, "order": 5, "expected_length": 11, "length": 11, "marks": [0, 1, 4, 9, 11], "valid": true, "passed": true}
+
+$ ./build/golomb_v1 6
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 6
+
+=== Golomb G6 ===
+Solution: [0, 1, 4, 10, 12, 17]
+Length: 17
+Time: 0.03 ms
+Nodes explored: 463
+Nodes pruned: 377
+Pruning ratio: 44.9%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v1", "6"], "exit_code": 0, "order": 6, "expected_length": 17, "length": 17, "marks": [0, 1, 4, 10, 12, 17], "valid": true, "passed": true}
+
+$ ./build/golomb_v1 7
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 7
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 0.33 ms
+Nodes explored: 4340
+Nodes pruned: 4687
+Pruning ratio: 51.9%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v1", "7"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ ./build/golomb_v1 8
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 3.70 ms
+Nodes explored: 37208
+Nodes pruned: 52868
+Pruning ratio: 58.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v1", "8"], "exit_code": 0, "order": 8, "expected_length": 34, "length": 34, "marks": [0, 1, 4, 9, 15, 22, 32, 34], "valid": true, "passed": true}
+
+$ ./build/golomb_v1_noavx 4
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Not compiled
+Order: 4
+
+=== Golomb G4 ===
+Solution: [0, 1, 4, 6]
+Length: 6
+Time: 0.00 ms
+Nodes explored: 8
+Nodes pruned: 3
+Pruning ratio: 27.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v1_noavx", "4"], "exit_code": 0, "order": 4, "expected_length": 6, "length": 6, "marks": [0, 1, 4, 6], "valid": true, "passed": true}
+
+$ ./build/golomb_v1_noavx 5
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Not compiled
+Order: 5
+
+=== Golomb G5 ===
+Solution: [0, 1, 4, 9, 11]
+Length: 11
+Time: 0.01 ms
+Nodes explored: 65
+Nodes pruned: 35
+Pruning ratio: 35.0%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v1_noavx", "5"], "exit_code": 0, "order": 5, "expected_length": 11, "length": 11, "marks": [0, 1, 4, 9, 11], "valid": true, "passed": true}
+
+$ ./build/golomb_v1_noavx 6
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Not compiled
+Order: 6
+
+=== Golomb G6 ===
+Solution: [0, 1, 4, 10, 12, 17]
+Length: 17
+Time: 0.03 ms
+Nodes explored: 463
+Nodes pruned: 377
+Pruning ratio: 44.9%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v1_noavx", "6"], "exit_code": 0, "order": 6, "expected_length": 17, "length": 17, "marks": [0, 1, 4, 10, 12, 17], "valid": true, "passed": true}
+
+$ ./build/golomb_v1_noavx 7
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Not compiled
+Order: 7
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 0.21 ms
+Nodes explored: 4340
+Nodes pruned: 4687
+Pruning ratio: 51.9%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v1_noavx", "7"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ ./build/golomb_v1_noavx 8
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Not compiled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 2.08 ms
+Nodes explored: 37208
+Nodes pruned: 52868
+Pruning ratio: 58.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v1_noavx", "8"], "exit_code": 0, "order": 8, "expected_length": 34, "length": 34, "marks": [0, 1, 4, 9, 15, 22, 32, 34], "valid": true, "passed": true}
+
+$ ./build/golomb_v2 4 --threads 4
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 4
+
+=== Golomb G4 ===
+Solution: [0, 1, 4, 6]
+Length: 6
+Time: 0.44 ms
+Nodes explored: 8
+Nodes pruned: 3
+Pruning ratio: 27.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v2", "4", "--threads", "4"], "exit_code": 0, "order": 4, "expected_length": 6, "length": 6, "marks": [0, 1, 4, 6], "valid": true, "passed": true}
+
+$ ./build/golomb_v2 5 --threads 4
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 5
+
+=== Golomb G5 ===
+Solution: [0, 1, 4, 9, 11]
+Length: 11
+Time: 0.47 ms
+Nodes explored: 58
+Nodes pruned: 36
+Pruning ratio: 38.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v2", "5", "--threads", "4"], "exit_code": 0, "order": 5, "expected_length": 11, "length": 11, "marks": [0, 1, 4, 9, 11], "valid": true, "passed": true}
+
+$ ./build/golomb_v2 6 --threads 4
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 6
+
+=== Golomb G6 ===
+Solution: [0, 3, 5, 9, 16, 17]
+Length: 17
+Time: 0.43 ms
+Nodes explored: 371
+Nodes pruned: 321
+Pruning ratio: 46.4%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v2", "6", "--threads", "4"], "exit_code": 0, "order": 6, "expected_length": 17, "length": 17, "marks": [0, 3, 5, 9, 16, 17], "valid": true, "passed": true}
+
+$ ./build/golomb_v2 7 --threads 4
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 7
+
+=== Golomb G7 ===
+Solution: [0, 3, 4, 12, 18, 23, 25]
+Length: 25
+Time: 0.52 ms
+Nodes explored: 2816
+Nodes pruned: 3482
+Pruning ratio: 55.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v2", "7", "--threads", "4"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 3, 4, 12, 18, 23, 25], "valid": true, "passed": true}
+
+$ ./build/golomb_v2 8 --threads 4
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 1.20 ms
+Nodes explored: 24183
+Nodes pruned: 40059
+Pruning ratio: 62.4%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v2", "8", "--threads", "4"], "exit_code": 0, "order": 8, "expected_length": 34, "length": 34, "marks": [0, 1, 4, 9, 15, 22, 32, 34], "valid": true, "passed": true}
+
+$ ./build/golomb_v2_noavx 4 --threads 4
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Disabled
+Order: 4
+
+=== Golomb G4 ===
+Solution: [0, 1, 4, 6]
+Length: 6
+Time: 0.42 ms
+Nodes explored: 8
+Nodes pruned: 3
+Pruning ratio: 27.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v2_noavx", "4", "--threads", "4"], "exit_code": 0, "order": 4, "expected_length": 6, "length": 6, "marks": [0, 1, 4, 6], "valid": true, "passed": true}
+
+$ ./build/golomb_v2_noavx 5 --threads 4
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Disabled
+Order: 5
+
+=== Golomb G5 ===
+Solution: [0, 1, 4, 9, 11]
+Length: 11
+Time: 0.41 ms
+Nodes explored: 58
+Nodes pruned: 36
+Pruning ratio: 38.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v2_noavx", "5", "--threads", "4"], "exit_code": 0, "order": 5, "expected_length": 11, "length": 11, "marks": [0, 1, 4, 9, 11], "valid": true, "passed": true}
+
+$ ./build/golomb_v2_noavx 6 --threads 4
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Disabled
+Order: 6
+
+=== Golomb G6 ===
+Solution: [0, 1, 4, 10, 12, 17]
+Length: 17
+Time: 0.43 ms
+Nodes explored: 371
+Nodes pruned: 321
+Pruning ratio: 46.4%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v2_noavx", "6", "--threads", "4"], "exit_code": 0, "order": 6, "expected_length": 17, "length": 17, "marks": [0, 1, 4, 10, 12, 17], "valid": true, "passed": true}
+
+$ ./build/golomb_v2_noavx 7 --threads 4
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Disabled
+Order: 7
+
+=== Golomb G7 ===
+Solution: [0, 4, 9, 15, 22, 23, 25]
+Length: 25
+Time: 0.58 ms
+Nodes explored: 2838
+Nodes pruned: 3505
+Pruning ratio: 55.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v2_noavx", "7", "--threads", "4"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 4, 9, 15, 22, 23, 25], "valid": true, "passed": true}
+
+$ ./build/golomb_v2_noavx 8 --threads 4
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Disabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 0.86 ms
+Nodes explored: 23153
+Nodes pruned: 39012
+Pruning ratio: 62.8%
+
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["./build/golomb_v2_noavx", "8", "--threads", "4"], "exit_code": 0, "order": 8, "expected_length": 34, "length": 34, "marks": [0, 1, 4, 9, 15, 22, 32, 34], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 2 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 2
+OpenMP Threads/rank: 2
+Total workers: 4
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 1.25 ms
+Nodes explored: 4154
+Nodes pruned: 4118
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "2", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 2 ./build/golomb_v3 8 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 8
+MPI Processes: 2
+OpenMP Threads/rank: 2
+Total workers: 4
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 44
+Subtrees: 564
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 4.25 ms
+Nodes explored: 36761
+Nodes pruned: 51317
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "2", "./build/golomb_v3", "8", "--threads", "2"], "exit_code": 0, "order": 8, "expected_length": 34, "length": 34, "marks": [0, 1, 4, 9, 15, 22, 32, 34], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 7 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 30
+Subtrees: 243
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 15.91 ms
+Nodes explored: 4228
+Nodes pruned: 4143
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v3 8 --threads 2
+=== Golomb Ruler Solver v3: Hybrid MPI+OpenMP ===
+Order: 8
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+SIMD/AVX2: Enabled
+Initial bound: 44
+Subtrees: 564
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 2.06 ms
+Nodes explored: 37329
+Nodes pruned: 51651
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v3", "8", "--threads", "2"], "exit_code": 0, "order": 8, "expected_length": 34, "length": 34, "marks": [0, 1, 4, 9, 15, 22, 32, 34], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 2 ./build/golomb_v4 7 --threads 2
+=== Golomb Ruler Solver v4: Pure Hypercube ===
+Order: 7
+MPI Processes: 2
+OpenMP Threads/rank: 2
+Total workers: 4
+Prefix depth: 3
+Hypercube dimension: 1
+SIMD/AVX2: Enabled
+Initial bound: 30
+Total subtrees: 243
+Subtrees per rank: ~121
+
+=== Golomb G7 ===
+Solution: [0, 1, 4, 10, 18, 23, 25]
+Length: 25
+Time: 0.45 ms
+Nodes explored: 4728
+Nodes pruned: 4438
+Best found by rank: 0
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "2", "./build/golomb_v4", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 1, 4, 10, 18, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 2 ./build/golomb_v4 8 --threads 2
+=== Golomb Ruler Solver v4: Pure Hypercube ===
+Order: 8
+MPI Processes: 2
+OpenMP Threads/rank: 2
+Total workers: 4
+Prefix depth: 3
+Hypercube dimension: 1
+SIMD/AVX2: Enabled
+Initial bound: 44
+Total subtrees: 564
+Subtrees per rank: ~282
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 2.19 ms
+Nodes explored: 42359
+Nodes pruned: 57361
+Best found by rank: 0
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "2", "./build/golomb_v4", "8", "--threads", "2"], "exit_code": 0, "order": 8, "expected_length": 34, "length": 34, "marks": [0, 1, 4, 9, 15, 22, 32, 34], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v4 7 --threads 2
+=== Golomb Ruler Solver v4: Pure Hypercube ===
+Order: 7
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+Hypercube dimension: 2
+SIMD/AVX2: Enabled
+Initial bound: 30
+Total subtrees: 243
+Subtrees per rank: ~60
+
+=== Golomb G7 ===
+Solution: [0, 4, 9, 15, 22, 23, 25]
+Length: 25
+Time: 7.81 ms
+Nodes explored: 5505
+Nodes pruned: 5024
+Best found by rank: 1
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v4", "7", "--threads", "2"], "exit_code": 0, "order": 7, "expected_length": 25, "length": 25, "marks": [0, 4, 9, 15, 22, 23, 25], "valid": true, "passed": true}
+
+$ mpirun --oversubscribe -np 4 ./build/golomb_v4 8 --threads 2
+=== Golomb Ruler Solver v4: Pure Hypercube ===
+Order: 8
+MPI Processes: 4
+OpenMP Threads/rank: 2
+Total workers: 8
+Prefix depth: 3
+Hypercube dimension: 2
+SIMD/AVX2: Enabled
+Initial bound: 44
+Total subtrees: 564
+Subtrees per rank: ~141
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 22.82 ms
+Nodes explored: 51582
+Nodes pruned: 69324
+Best found by rank: 0
+*** OPTIMAL SOLUTION FOUND ***
+
+CHECK {"command": ["mpirun", "--oversubscribe", "-np", "4", "./build/golomb_v4", "8", "--threads", "2"], "exit_code": 0, "order": 8, "expected_length": 34, "length": 34, "marks": [0, 1, 4, 9, 15, 22, 32, 34], "valid": true, "passed": true}

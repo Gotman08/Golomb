@@ -1,0 +1,1205 @@
+warmup 0: $ ./build/golomb_v2 8 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 2.73 ms
+Nodes explored: 20910
+Nodes pruned: 36987
+Pruning ratio: 63.9%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+warmup 0: $ ./build/golomb_v2 10 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 211.87 ms
+Nodes explored: 1243533
+Nodes pruned: 3955972
+Pruning ratio: 76.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+warmup 0: $ ./build/golomb_v1 10 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 330.42 ms
+Nodes explored: 2466475
+Nodes pruned: 5398574
+Pruning ratio: 68.6%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+warmup 0: $ ./build/golomb_v2 9 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 23.25 ms
+Nodes explored: 147531
+Nodes pruned: 366878
+Pruning ratio: 71.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+warmup 0: $ ./build/golomb_v2 10 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 94.69 ms
+Nodes explored: 1087616
+Nodes pruned: 3589617
+Pruning ratio: 76.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+warmup 0: $ ./build/golomb_v2 8 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 1.68 ms
+Nodes explored: 22307
+Nodes pruned: 38085
+Pruning ratio: 63.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+warmup 0: $ ./build/golomb_v2 8 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 1.27 ms
+Nodes explored: 24173
+Nodes pruned: 40062
+Pruning ratio: 62.4%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+warmup 0: $ ./build/golomb_v2 9 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 6.45 ms
+Nodes explored: 163058
+Nodes pruned: 389181
+Pruning ratio: 70.5%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+warmup 0: $ ./build/golomb_v1 9 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 35.52 ms
+Nodes explored: 303756
+Nodes pruned: 546788
+Pruning ratio: 64.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+warmup 0: $ ./build/golomb_v1 8 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 3.67 ms
+Nodes explored: 37208
+Nodes pruned: 52868
+Pruning ratio: 58.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+warmup 0: $ ./build/golomb_v2 10 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 74.18 ms
+Nodes explored: 1572247
+Nodes pruned: 5053846
+Pruning ratio: 76.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+warmup 0: $ ./build/golomb_v2 9 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 12.32 ms
+Nodes explored: 155948
+Nodes pruned: 377258
+Pruning ratio: 70.8%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v2 9 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 22.38 ms
+Nodes explored: 147531
+Nodes pruned: 366878
+Pruning ratio: 71.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v1 8 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 3.65 ms
+Nodes explored: 37208
+Nodes pruned: 52868
+Pruning ratio: 58.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v2 8 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 1.24 ms
+Nodes explored: 23555
+Nodes pruned: 39230
+Pruning ratio: 62.5%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v2 9 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 6.48 ms
+Nodes explored: 163613
+Nodes pruned: 389266
+Pruning ratio: 70.4%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v2 9 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 11.78 ms
+Nodes explored: 155984
+Nodes pruned: 377264
+Pruning ratio: 70.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v2 10 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 70.85 ms
+Nodes explored: 1619238
+Nodes pruned: 5184137
+Pruning ratio: 76.2%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v2 10 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 202.76 ms
+Nodes explored: 1243533
+Nodes pruned: 3955972
+Pruning ratio: 76.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v2 8 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 2.67 ms
+Nodes explored: 20910
+Nodes pruned: 36987
+Pruning ratio: 63.9%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v2 10 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 96.16 ms
+Nodes explored: 1107068
+Nodes pruned: 3631947
+Pruning ratio: 76.6%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v1 9 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 35.15 ms
+Nodes explored: 303756
+Nodes pruned: 546788
+Pruning ratio: 64.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v2 8 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 1.82 ms
+Nodes explored: 22308
+Nodes pruned: 38085
+Pruning ratio: 63.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 1: $ ./build/golomb_v1 10 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 325.33 ms
+Nodes explored: 2466475
+Nodes pruned: 5398574
+Pruning ratio: 68.6%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v1 8 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 3.57 ms
+Nodes explored: 37208
+Nodes pruned: 52868
+Pruning ratio: 58.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v2 10 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 205.15 ms
+Nodes explored: 1243533
+Nodes pruned: 3955972
+Pruning ratio: 76.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v1 9 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 34.90 ms
+Nodes explored: 303756
+Nodes pruned: 546788
+Pruning ratio: 64.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v1 10 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 332.94 ms
+Nodes explored: 2466475
+Nodes pruned: 5398574
+Pruning ratio: 68.6%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v2 9 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 12.20 ms
+Nodes explored: 156973
+Nodes pruned: 378626
+Pruning ratio: 70.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v2 8 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 7.40 ms
+Nodes explored: 23155
+Nodes pruned: 39011
+Pruning ratio: 62.8%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v2 8 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 2.42 ms
+Nodes explored: 21587
+Nodes pruned: 37425
+Pruning ratio: 63.4%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v2 10 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 183.01 ms
+Nodes explored: 2141171
+Nodes pruned: 6512378
+Pruning ratio: 75.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v2 9 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 6.75 ms
+Nodes explored: 163189
+Nodes pruned: 389294
+Pruning ratio: 70.5%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v2 9 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 23.81 ms
+Nodes explored: 147531
+Nodes pruned: 366878
+Pruning ratio: 71.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v2 8 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 2.80 ms
+Nodes explored: 20910
+Nodes pruned: 36987
+Pruning ratio: 63.9%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 2: $ ./build/golomb_v2 10 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 47.28 ms
+Nodes explored: 971902
+Nodes pruned: 3344534
+Pruning ratio: 77.5%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v2 10 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 207.37 ms
+Nodes explored: 1243533
+Nodes pruned: 3955972
+Pruning ratio: 76.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v2 8 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 2.66 ms
+Nodes explored: 20910
+Nodes pruned: 36987
+Pruning ratio: 63.9%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v2 8 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 1.73 ms
+Nodes explored: 22307
+Nodes pruned: 38085
+Pruning ratio: 63.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v2 9 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 12.24 ms
+Nodes explored: 156975
+Nodes pruned: 378638
+Pruning ratio: 70.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v2 8 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 5.95 ms
+Nodes explored: 23220
+Nodes pruned: 39039
+Pruning ratio: 62.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v2 9 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 22.81 ms
+Nodes explored: 147531
+Nodes pruned: 366878
+Pruning ratio: 71.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v2 10 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 76.55 ms
+Nodes explored: 1628592
+Nodes pruned: 5199395
+Pruning ratio: 76.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v2 10 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 183.05 ms
+Nodes explored: 2197754
+Nodes pruned: 6624373
+Pruning ratio: 75.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v1 8 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 3.69 ms
+Nodes explored: 37208
+Nodes pruned: 52868
+Pruning ratio: 58.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v1 9 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 35.26 ms
+Nodes explored: 303756
+Nodes pruned: 546788
+Pruning ratio: 64.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v1 10 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 322.71 ms
+Nodes explored: 2466475
+Nodes pruned: 5398574
+Pruning ratio: 68.6%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 3: $ ./build/golomb_v2 9 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 6.57 ms
+Nodes explored: 163077
+Nodes pruned: 389203
+Pruning ratio: 70.5%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v1 8 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 3.62 ms
+Nodes explored: 37208
+Nodes pruned: 52868
+Pruning ratio: 58.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v2 9 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 6.57 ms
+Nodes explored: 163077
+Nodes pruned: 389203
+Pruning ratio: 70.5%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v2 8 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 1.67 ms
+Nodes explored: 22308
+Nodes pruned: 38085
+Pruning ratio: 63.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v2 9 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 12.00 ms
+Nodes explored: 157011
+Nodes pruned: 378644
+Pruning ratio: 70.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v2 10 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 204.66 ms
+Nodes explored: 1243533
+Nodes pruned: 3955972
+Pruning ratio: 76.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v1 10 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 332.93 ms
+Nodes explored: 2466475
+Nodes pruned: 5398574
+Pruning ratio: 68.6%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v1 9 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 34.91 ms
+Nodes explored: 303756
+Nodes pruned: 546788
+Pruning ratio: 64.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v2 10 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 178.25 ms
+Nodes explored: 2065563
+Nodes pruned: 6347429
+Pruning ratio: 75.4%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v2 8 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 2.69 ms
+Nodes explored: 20910
+Nodes pruned: 36987
+Pruning ratio: 63.9%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v2 10 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 45.34 ms
+Nodes explored: 971876
+Nodes pruned: 3344496
+Pruning ratio: 77.5%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v2 8 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 1.36 ms
+Nodes explored: 24362
+Nodes pruned: 40166
+Pruning ratio: 62.2%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 4: $ ./build/golomb_v2 9 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 21.84 ms
+Nodes explored: 147531
+Nodes pruned: 366878
+Pruning ratio: 71.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v2 10 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 175.82 ms
+Nodes explored: 2059912
+Nodes pruned: 6334030
+Pruning ratio: 75.5%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v2 9 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 12.41 ms
+Nodes explored: 157011
+Nodes pruned: 378644
+Pruning ratio: 70.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v2 8 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 1.28 ms
+Nodes explored: 24174
+Nodes pruned: 40062
+Pruning ratio: 62.4%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v2 10 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 2, 14, 21, 29, 32, 45, 49, 54, 55]
+Length: 55
+Time: 210.01 ms
+Nodes explored: 1243533
+Nodes pruned: 3955972
+Pruning ratio: 76.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v1 9 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 34.89 ms
+Nodes explored: 303756
+Nodes pruned: 546788
+Pruning ratio: 64.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v2 8 --threads 2 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 2 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 1.70 ms
+Nodes explored: 22307
+Nodes pruned: 38085
+Pruning ratio: 63.1%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v1 8 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 3.66 ms
+Nodes explored: 37208
+Nodes pruned: 52868
+Pruning ratio: 58.7%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v2 9 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 7.33 ms
+Nodes explored: 162916
+Nodes pruned: 389153
+Pruning ratio: 70.5%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v1 10 --csv <temporary CSV>
+=== Golomb Ruler Solver v1: Sequential ===
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 329.23 ms
+Nodes explored: 2466475
+Nodes pruned: 5398574
+Pruning ratio: 68.6%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v2 9 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 9
+
+=== Golomb G9 ===
+Solution: [0, 1, 5, 12, 25, 27, 35, 41, 44]
+Length: 44
+Time: 22.37 ms
+Nodes explored: 147531
+Nodes pruned: 366878
+Pruning ratio: 71.3%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v2 10 --threads 4 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 4 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 10
+
+=== Golomb G10 ===
+Solution: [0, 1, 6, 10, 23, 26, 34, 41, 53, 55]
+Length: 55
+Time: 50.17 ms
+Nodes explored: 1003683
+Nodes pruned: 3397873
+Pruning ratio: 77.2%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
+
+measured 5: $ ./build/golomb_v2 8 --threads 1 --csv <temporary CSV>
+=== Golomb Ruler Solver v2: OpenMP ===
+Threads: 1 (HT enabled, 10 physical)
+SIMD/AVX2: Enabled
+Order: 8
+
+=== Golomb G8 ===
+Solution: [0, 1, 4, 9, 15, 22, 32, 34]
+Length: 34
+Time: 2.77 ms
+Nodes explored: 20910
+Nodes pruned: 36987
+Pruning ratio: 63.9%
+
+*** OPTIMAL SOLUTION FOUND ***
+Results saved to <temporary CSV>
