@@ -1,85 +1,21 @@
-# HPC Deployment Guide
+# HPC deployment notes
 
-## Quick Start
+The scripts in `scripts/hpc/` and the SLURM jobs in `jobs/` are retained from the historical Romeo work present at revision `d533cab` on 2026-03-31. Their cluster configuration and performance recommendations have not been revalidated in the local WSL session. They require an account and resource allocation on the intended cluster.
 
-### Local Execution
+## Local MPI validation
+
+The following local commands compile and exercise the distributed implementations without submitting a cluster job:
+
 ```bash
-# Build all versions
-make all
-
-# Sequential
-./build/golomb_v1 10
-
-# OpenMP (8 threads)
-OMP_NUM_THREADS=8 ./build/golomb_v2 11
-
-# MPI+OpenMP (4 ranks x 4 threads)
-OMP_NUM_THREADS=4 mpirun -np 4 ./build/golomb_v3 12
-
-# Hypercube (8 ranks, power of 2)
-OMP_NUM_THREADS=4 mpirun -np 8 ./build/golomb_v4 12
+make v3 v4
+mpirun --oversubscribe -np 2 ./build/golomb_v3 7 --threads 2
+mpirun --oversubscribe -np 4 ./build/golomb_v4 8 --threads 2
 ```
 
-## Cluster Deployment
+The second solver invocation uses a power-of-two rank count for the hypercube topology. Passing these cases checks returned rulers and termination on one machine. It does not establish network scalability or fault tolerance.
 
-### 1. Deploy to Cluster
-```bash
-bash scripts/hpc/deploy.sh
-```
+## Historical cluster workflow
 
-### 2. Submit Job
-```bash
-ssh user@cluster
-cd ~/golomb
-sbatch jobs/hybrid_benchmark.slurm
-```
+Review site-specific paths, account settings, partitions and allocations in the existing scripts before using them. Configure the existing `ROMEO_USER`, `ROMEO_HOST` and related settings for the intended site. The published project still contains historical account defaults; they are not needed for any local command in the README or benchmark harness.
 
-## SLURM Configuration
-
-### Sequential Job
-```bash
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=32
-```
-
-### MPI Job
-```bash
-#SBATCH --nodes=4
-#SBATCH --ntasks=32
-#SBATCH --cpus-per-task=4
-```
-
-### CPU Affinity (Important!)
-```bash
-export OMP_PLACES=cores
-export OMP_PROC_BIND=close
-```
-
-## Scaling Guidelines
-
-| Order | Recommended Version | Configuration |
-|-------|---------------------|---------------|
-| ≤ 9 | v1 or v2 | 1-8 threads |
-| 10-11 | v2 | 8-32 threads |
-| 12-13 | v3 or v4 | 4-16 ranks × 8 threads |
-| ≥ 14 | v4 | 32+ ranks × 8 threads |
-
-## Performance Tips
-
-1. **Use power-of-2 ranks for v4** (hypercube topology)
-2. **Match threads to physical cores** (avoid hyperthreading)
-3. **Use fast scratch storage** for I/O
-4. **Set proper CPU affinity** for NUMA systems
-
-## Troubleshooting
-
-### MPI not found
-```bash
-module load openmpi  # or mpich
-```
-
-### Poor scaling
-- Check CPU affinity settings
-- Reduce thread count if oversubscribed
-- Use v4 instead of v3 for >8 ranks
+No cluster submission, SSH connection or credential change is part of `bench/run.sh` or CI. A future cluster campaign needs recorded compiler and MPI versions, node topology, placement, warmups, repetitions and failed jobs before publishing scaling claims. See [the archive catalogue](archive.md) for the old datasets.
