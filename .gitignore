@@ -57,3 +57,13 @@ coverage.xml
 docs/_build/
 docs/html/
 
+# Local measurement and document tooling
+.venv/
+*.aux
+*.nav
+*.snm
+*.toc
+*.vrb
+docs/*.out
+!bench/results/**/*.log
+
